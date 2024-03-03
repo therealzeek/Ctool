@@ -12,7 +12,7 @@ local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ki
 local Notify = AkaliNotif.Notify;
 Notify({
 Description = "nara.cc";
-Title = "lock has loaded";
+Title = "WHITELIST FOUND";
 Duration = 10;
 })
 
@@ -26,3 +26,4 @@ connectCharacterAdded()
 
 player.CharacterRemoving:Connect(function()
     tool.Parent = game.Players.LocalPlayer.Backpack
+end)
